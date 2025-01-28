@@ -68,7 +68,7 @@ ostream& operator<<(ostream& wy, const Kontrahent& i) {
 
 
 istream& operator>>(std::istream& we, Kontrahent& i) {
-    we >> static_cast<Kontrahent&>(i); // Wczytanie cz??ci bazowej
+    we >> static_cast<Pracownik&>(i); 
     cout << "Podaj nazwe firmy: ";
     we >> i.m_NazwaFirmy;
     cout << "Podaj liczbe zamowien: ";

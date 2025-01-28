@@ -49,7 +49,7 @@ void Kontrahent::Wpisz()
 
 void Kontrahent::WypiszDane() const {
     cout << "Kontrahent: ";
-    Wypisz();
+    Pracownik::WypiszDane();
     cout << "Nazwa firmy: " << m_NazwaFirmy.Zwroc() << endl << "Liczba zamowien: " << m_nLiczbaZamowien << endl;
 }
 

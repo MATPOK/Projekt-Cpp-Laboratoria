@@ -2,6 +2,7 @@
 
 using namespace std;
 
+
 void Menu() {
 	ListaPracownikow list;
 	const char* fileName = "Pracownicy.txt";

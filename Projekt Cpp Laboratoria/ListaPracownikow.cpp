@@ -107,6 +107,7 @@ void ListaPracownikow::WypiszPracownikow() const
 }
 
 
+
 const Pracownik* ListaPracownikow::Szukaj(const char* nazwisko, const char* imie) const
 {
     Pracownik* test = m_pPoczatek;

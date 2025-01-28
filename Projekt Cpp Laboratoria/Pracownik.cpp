@@ -1,4 +1,5 @@
 #include "Pracownik.h"
+#include "ListaPracownikow.h"
 
 using namespace std;
 

@@ -8,16 +8,19 @@ void Menu() {
 	int choose;
 
 	do {
-		cout << "\nWybierz opcje:\n";
-		cout << "1) Nowy pracownik\n";
-		cout << "2) Nowy kierownik\n";
-		cout << "3) Nowy kontrahent\n";
-		cout << "4) Usuñ z listy\n";
-		cout << "5) Wypisz ca³¹ listê\n";
-		cout << "6) ZnajdŸ na liœcie\n";
-		cout << "7) Zapisz listê do pliku\n";
-		cout << "8) Wczytaj listê z pliku\n";
-		cout << "9) Zakoñcz program\n";
+		cout << "--------------------------------------\n";
+		cout << "|               MENU                 |\n";
+		cout << "--------------------------------------\n";
+		cout << "| 1) Nowy pracownik                  |\n";
+		cout << "| 2) Nowy kierownik                  |\n";
+		cout << "| 3) Nowy kontrahent                 |\n";
+		cout << "| 4) Usuñ z listy                    |\n";
+		cout << "| 5) Wypisz ca³¹ listê               |\n";
+		cout << "| 6) ZnajdŸ na liœcie                |\n";
+		cout << "| 7) Zapisz listê do pliku           |\n";
+		cout << "| 8) Wczytaj listê z pliku           |\n";
+		cout << "| 9) Zakoñcz program                 |\n";
+		cout << "--------------------------------------\n";
 		cout << "Wybierz co chcesz zrobiæ: ";
 		cin >> choose;
 		cin.ignore();
